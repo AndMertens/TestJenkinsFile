@@ -3,10 +3,8 @@ pipeline {
   stages {
     stage ("Stage 1") {
       steps {
-        script {
         echo "Hello world"
-        }
-     }
+      }
     }
   }
 }
